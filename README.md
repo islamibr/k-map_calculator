@@ -33,7 +33,7 @@ This project offers a C implementation of the Quine-McCluskey algorithm. By prov
 
 ## Pseudocode
 ```
-  function quine_mccluskey(n, outputs):
+function quine_mccluskey(n, outputs):
     all_outputs_zero = check_all_outputs_zero(outputs)
     if all_outputs_zero:
         return "0"

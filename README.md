@@ -32,7 +32,8 @@ Boolean function minimization is a crucial step in digital logic design, aiding 
 This project offers a C implementation of the Quine-McCluskey algorithm. By providing the number of variables (`n`) and their corresponding truth table outputs, the program generates a simplified Boolean expression in sum-of-products (SOP) form.
 
 ## Pseudocode
-function quine_mccluskey(n, outputs):
+```
+  function quine_mccluskey(n, outputs):
     all_outputs_zero = check_all_outputs_zero(outputs)
     if all_outputs_zero:
         return "0"
@@ -76,3 +77,4 @@ function generate_simplified_expression(implicants):
                 result = result + term
                 implicant.used = true
     return result
+```
